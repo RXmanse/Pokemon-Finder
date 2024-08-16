@@ -1,0 +1,163 @@
+body {
+    background-color: #1a1a2e;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    background-color: #27293d;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.freecodecamp-logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#search-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#search-button {
+    background-color: #7a40f2;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#search-button:hover {
+    background-color: #682bb7;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-and-id {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.size {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.sprite-container {
+    margin: 10px 0;
+}
+
+#types {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.type {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #4a4a6a;
+}
+
+.bottom-container {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th,td {
+    background-color: rgb(127,33,171);
+    color: white;
+    border: 3px #27293d solid;
+}
+
+.ghost {
+    background-color: rgb(153,149,208);
+}
+
+.electric {
+    background-color: rgb(254,204,51);
+}
+
+.poison {
+    background-color: rgb(198,139,183);
+}
+
+.grass {
+    background-color: rgb(120,204,85);
+}
+.water {
+    background-color: rgb(66,161,255);
+}
+.flying {
+    background-color: rgb(136,153,255);
+}
+.dragon {
+    background-color: #9E93F1;
+}
+.bug {
+    background-color: #AABB23;
+}
+.fighting {
+    background-color: #D3887E;
+}
